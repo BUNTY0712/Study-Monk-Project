@@ -6,6 +6,7 @@
 }
 .backGround {
 	background: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=900&t=st=1688730416~exp=1688731016~hmac=64a7c33dd9f8c2c31b0d927f974eaf8e2b5468d03668f5690342de19f84eaedc);
+	background-size: cover;
 }
 .head {
 	display: flex;
@@ -27,6 +28,8 @@
 	padding-left: 6px;
 	background-color: white;
 	color: black;
+	width: 250px;
+	border-radius: 25px;
 	/* border-radius: 5px; */
 }
 .inputBox {
@@ -122,6 +125,8 @@
 	border-radius: 10px;
 	text-decoration: none;
 }
+
+/* Footer  */
 
 .copyright {
 	padding: 10px;
