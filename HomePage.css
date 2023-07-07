@@ -1,0 +1,131 @@
+.header {
+	box-shadow: 0 0 5px;
+	padding: 20px;
+	background: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=900&t=st=1688730416~exp=1688731016~hmac=64a7c33dd9f8c2c31b0d927f974eaf8e2b5468d03668f5690342de19f84eaedc);
+	color: white;
+}
+.backGround {
+	background: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=900&t=st=1688730416~exp=1688731016~hmac=64a7c33dd9f8c2c31b0d927f974eaf8e2b5468d03668f5690342de19f84eaedc);
+}
+.head {
+	display: flex;
+	justify-content: space-around;
+}
+.logo {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.anchor {
+	text-decoration: none;
+	color: black;
+}
+.searchBox {
+	margin-left: 20px;
+	display: flex;
+	border: 2px solid black;
+	padding-top: 10px;
+	padding-left: 6px;
+	background-color: white;
+	color: black;
+	/* border-radius: 5px; */
+}
+.inputBox {
+	border: none;
+	outline: none;
+	/* margin-left: 20px; */
+}
+.allProduct {
+	margin-top: 5px;
+	display: flex;
+}
+
+.Product {
+	margin-left: 20px;
+	font-size: 18px;
+	font-weight: 550;
+	padding-top: 15px;
+}
+.hover-list {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.Product-list:hover {
+	color: #87ceeb;
+}
+/* .Product-list:hover .list {
+	display: block;
+	display: none;
+} */
+.Product-list:hover .hover-list {
+	display: block;
+}
+
+.Product-card-style {
+	/* box-shadow: 0 0 5px; */
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid gray;
+	background-color: azure;
+	padding: 20px;
+	color: black;
+}
+
+.Aegis:hover {
+	color: #87ceeb;
+}
+
+.login-button {
+	font-weight: bold;
+	background-color: #87ceeb;
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	border: none;
+	box-shadow: 0 0 5px;
+}
+
+/* // section */
+
+.hero {
+	text-align: center;
+	background-image: url(https://images.pexels.com/photos/3760069/pexels-photo-3760069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	height: 80vh;
+	margin-top: 10px;
+	/* background-repeat: cover; */
+	background-size: cover;
+	box-shadow: 0 0 5px;
+
+	/* display: flex;
+	align-items: center; */
+}
+
+.Efficient {
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 60px;
+}
+.Discover {
+	font-size: 20px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+.Get-Started {
+	font-weight: bold;
+	background-color: #87ceeb;
+	color: white;
+	font-size: 20px;
+	padding: 15px;
+	border: none;
+
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.copyright {
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 5px;
+	color: white;
+}

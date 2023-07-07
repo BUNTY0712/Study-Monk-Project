@@ -1,0 +1,83 @@
+.login {
+	margin-top: 10px;
+	box-shadow: 0 0 5px;
+	background: url(https://images.pexels.com/photos/1181325/pexels-photo-1181325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	color: white;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+	padding: 60px;
+}
+.backGround {
+	background: url(https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?w=900&t=st=1688730416~exp=1688731016~hmac=64a7c33dd9f8c2c31b0d927f974eaf8e2b5468d03668f5690342de19f84eaedc);
+}
+.login-logo {
+	color: black;
+	position: relative;
+	left: -50px;
+	top: 2px;
+}
+.input-field {
+	width: 400px;
+	height: 30px;
+	/* padding-left: 30px; */
+}
+.Login {
+	font-weight: bold;
+	font-size: 30px;
+}
+.box-header {
+	margin-top: 20px;
+}
+
+.box {
+	padding: 50px;
+	box-shadow: 0 0 5px;
+	height: 60vh;
+}
+
+.box-header {
+	font-weight: bold;
+}
+
+.box-input {
+	position: relative;
+	margin-top: 5px;
+}
+
+.icon {
+	position: absolute;
+	left: 65px;
+	margin-top: 5px;
+}
+
+.input-field {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding-left: 30px;
+}
+
+.box-footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.forget-password {
+	color: red;
+}
+
+.box-button {
+	margin-top: 3px;
+	margin-left: 1px;
+	text-align: center;
+	padding: 4px;
+	font-weight: 500;
+	color: white;
+	background: #39c9bb;
+	height: 25px;
+	border-radius: 10px;
+	padding-top: 10px;
+	/* box-shadow: 0 0 5px; */
+}
